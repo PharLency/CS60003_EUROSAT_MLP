@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+EuroSAT_RGB/
+
+eurosat_mlp/checkpoints_aug/*.npz
+eurosat_mlp/search_results_aug/*.npz
+eurosat_mlp/results_aug/*.npy
+eurosat_mlp/results_aug/*.npz
+
+hw1.md
+hw1.pdf
+
+eurosat_mlp/figures_aug/

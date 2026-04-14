@@ -1,0 +1,215 @@
+{
+  "method": "random_search",
+  "n_trials": 20,
+  "search_epochs": 20,
+  "results": [
+    {
+      "lr": 0.028046776965039745,
+      "hidden1_dim": 512,
+      "hidden2_dim": 512,
+      "weight_decay": 1.2705645329288707e-05,
+      "activation": "relu",
+      "best_val_acc": 0.7012345679012346,
+      "final_train_acc": 0.758994708994709,
+      "time": 268.5874869823456
+    },
+    {
+      "lr": 0.00788587644321738,
+      "hidden1_dim": 512,
+      "hidden2_dim": 64,
+      "weight_decay": 0.006993395623207706,
+      "activation": "relu",
+      "best_val_acc": 0.6804938271604938,
+      "final_train_acc": 0.7043386243386244,
+      "time": 287.7462477684021
+    },
+    {
+      "lr": 0.0050135383331244504,
+      "hidden1_dim": 1024,
+      "hidden2_dim": 256,
+      "weight_decay": 0.000526296103107674,
+      "activation": "relu",
+      "best_val_acc": 0.6758024691358024,
+      "final_train_acc": 0.70005291005291,
+      "time": 441.76868081092834
+    },
+    {
+      "lr": 0.030783453397906016,
+      "hidden1_dim": 64,
+      "hidden2_dim": 512,
+      "weight_decay": 0.00027964859516062436,
+      "activation": "relu",
+      "best_val_acc": 0.6634567901234568,
+      "final_train_acc": 0.6885714285714286,
+      "time": 47.977537393569946
+    },
+    {
+      "lr": 0.00785733440468495,
+      "hidden1_dim": 128,
+      "hidden2_dim": 256,
+      "weight_decay": 2.5113061677389973e-06,
+      "activation": "relu",
+      "best_val_acc": 0.6602469135802469,
+      "final_train_acc": 0.6842857142857143,
+      "time": 64.65413498878479
+    },
+    {
+      "lr": 0.0036459455485733953,
+      "hidden1_dim": 1024,
+      "hidden2_dim": 256,
+      "weight_decay": 0.0008471801418819973,
+      "activation": "relu",
+      "best_val_acc": 0.6550617283950617,
+      "final_train_acc": 0.6808994708994709,
+      "time": 402.3472890853882
+    },
+    {
+      "lr": 0.004573289989606562,
+      "hidden1_dim": 512,
+      "hidden2_dim": 64,
+      "weight_decay": 0.0021516897298083306,
+      "activation": "relu",
+      "best_val_acc": 0.6535802469135803,
+      "final_train_acc": 0.678994708994709,
+      "time": 304.737012386322
+    },
+    {
+      "lr": 0.019918848051664502,
+      "hidden1_dim": 512,
+      "hidden2_dim": 512,
+      "weight_decay": 0.0006796578090758152,
+      "activation": "tanh",
+      "best_val_acc": 0.6493827160493827,
+      "final_train_acc": 0.6978835978835979,
+      "time": 176.4492905139923
+    },
+    {
+      "lr": 0.0043424398527550125,
+      "hidden1_dim": 128,
+      "hidden2_dim": 512,
+      "weight_decay": 5.488047000766047e-06,
+      "activation": "relu",
+      "best_val_acc": 0.6444444444444445,
+      "final_train_acc": 0.661058201058201,
+      "time": 92.50119280815125
+    },
+    {
+      "lr": 0.02311961528799045,
+      "hidden1_dim": 512,
+      "hidden2_dim": 128,
+      "weight_decay": 0.00044677528179739033,
+      "activation": "tanh",
+      "best_val_acc": 0.6441975308641975,
+      "final_train_acc": 0.7025925925925925,
+      "time": 261.27030205726624
+    },
+    {
+      "lr": 0.003911310350560015,
+      "hidden1_dim": 256,
+      "hidden2_dim": 256,
+      "weight_decay": 0.0006720930050156109,
+      "activation": "relu",
+      "best_val_acc": 0.6441975308641975,
+      "final_train_acc": 0.6615873015873016,
+      "time": 161.20471930503845
+    },
+    {
+      "lr": 0.01834117530573979,
+      "hidden1_dim": 512,
+      "hidden2_dim": 128,
+      "weight_decay": 3.807158379249391e-05,
+      "activation": "tanh",
+      "best_val_acc": 0.6412345679012346,
+      "final_train_acc": 0.6897883597883598,
+      "time": 254.23346972465515
+    },
+    {
+      "lr": 0.015057883823359902,
+      "hidden1_dim": 256,
+      "hidden2_dim": 512,
+      "weight_decay": 0.00011400863701127315,
+      "activation": "tanh",
+      "best_val_acc": 0.64,
+      "final_train_acc": 0.6768253968253968,
+      "time": 91.45613169670105
+    },
+    {
+      "lr": 0.015969652689281914,
+      "hidden1_dim": 64,
+      "hidden2_dim": 64,
+      "weight_decay": 0.008862326508576247,
+      "activation": "tanh",
+      "best_val_acc": 0.5997530864197531,
+      "final_train_acc": 0.6153968253968254,
+      "time": 64.91452264785767
+    },
+    {
+      "lr": 0.0038283878965205873,
+      "hidden1_dim": 128,
+      "hidden2_dim": 256,
+      "weight_decay": 0.002065142557895924,
+      "activation": "tanh",
+      "best_val_acc": 0.5888888888888889,
+      "final_train_acc": 0.6014814814814815,
+      "time": 79.87877488136292
+    },
+    {
+      "lr": 0.003785513103350148,
+      "hidden1_dim": 128,
+      "hidden2_dim": 64,
+      "weight_decay": 8.386394780402547e-06,
+      "activation": "tanh",
+      "best_val_acc": 0.582716049382716,
+      "final_train_acc": 0.6001587301587301,
+      "time": 59.57333159446716
+    },
+    {
+      "lr": 0.0044454684050480075,
+      "hidden1_dim": 64,
+      "hidden2_dim": 256,
+      "weight_decay": 0.0002801635158716258,
+      "activation": "tanh",
+      "best_val_acc": 0.5753086419753086,
+      "final_train_acc": 0.5895767195767195,
+      "time": 50.3847815990448
+    },
+    {
+      "lr": 0.0012151149621988171,
+      "hidden1_dim": 512,
+      "hidden2_dim": 128,
+      "weight_decay": 7.068974950624601e-06,
+      "activation": "tanh",
+      "best_val_acc": 0.5580246913580247,
+      "final_train_acc": 0.5573015873015873,
+      "time": 184.35723209381104
+    },
+    {
+      "lr": 0.001174893482981875,
+      "hidden1_dim": 512,
+      "hidden2_dim": 512,
+      "weight_decay": 8.532678095658718e-06,
+      "activation": "tanh",
+      "best_val_acc": 0.5575308641975308,
+      "final_train_acc": 0.5633862433862434,
+      "time": 199.67583203315735
+    },
+    {
+      "lr": 0.0012519223405321684,
+      "hidden1_dim": 512,
+      "hidden2_dim": 64,
+      "weight_decay": 0.007286653737491036,
+      "activation": "tanh",
+      "best_val_acc": 0.5488888888888889,
+      "final_train_acc": 0.5482539682539682,
+      "time": 235.00065326690674
+    }
+  ],
+  "best_config": {
+    "lr": 0.028046776965039745,
+    "hidden1_dim": 512,
+    "hidden2_dim": 512,
+    "weight_decay": 1.2705645329288707e-05,
+    "activation": "relu"
+  },
+  "best_val_acc": 0.7012345679012346
+}
