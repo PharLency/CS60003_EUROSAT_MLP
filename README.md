@@ -31,6 +31,12 @@ conda activate eurosat-mlp
 pip install -r requirements.txt
 ```
 
+If you want to use the ModelScope CLI to download pretrained weights:
+
+```bash
+pip install modelscope
+```
+
 ## Dataset
 
 Place the EuroSAT RGB dataset at:
@@ -146,6 +152,38 @@ python run_all.py
 ```
 
 By default, this trains, evaluates, and generates figures using the built-in main configuration.
+
+## Pretrained Weights
+
+Uploaded ModelScope repository:
+
+```text
+Pharlency/CS60003-hw1-three-layer-mlp
+```
+
+Download the main best checkpoint:
+
+```bash
+modelscope download --model Pharlency/CS60003-hw1-three-layer-mlp checkpoints_aug/best_model.npz --local_dir ./modelscope_weights
+```
+
+Download the normalization statistics used together with the checkpoint:
+
+```bash
+modelscope download --model Pharlency/CS60003-hw1-three-layer-mlp checkpoints_aug/data_stats.npz --local_dir ./modelscope_weights
+```
+
+Download the final checkpoint after full training:
+
+```bash
+modelscope download --model Pharlency/CS60003-hw1-three-layer-mlp checkpoints_aug/final_model.npz --local_dir ./modelscope_weights
+```
+
+Download the best checkpoint found during hyperparameter search:
+
+```bash
+modelscope download --model Pharlency/CS60003-hw1-three-layer-mlp search_results_aug/search_best_model.npz --local_dir ./modelscope_weights
+```
 
 ## Notes
 
